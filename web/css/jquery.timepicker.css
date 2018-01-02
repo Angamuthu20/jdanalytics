@@ -1,0 +1,205 @@
+.jquery-timepicker,
+.jquery-timepicker * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.jquery-timepicker {
+	background: transparent;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: black;
+	display: block !important;
+	height: auto;
+	margin: 0;
+	padding: 20px;
+	width: 36px;
+	position: fixed;
+	top: 22px;
+	right: 15px;
+	padding: 0;
+	z-index: 9999999;
+}
+
+.jquery-timepicker-clock {
+	border: 1px solid #dedede;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	height: 34px;
+	position: relative;
+	width: 34px;
+	background: #f7f7f7;
+}
+.jquery-timepicker-clock:hover{
+	cursor: pointer;
+}
+.jquery-timepicker-minute-number {
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	text-align: center;
+	width: 20px;
+	display: none;
+}
+
+.jquery-timepicker-minute-small,
+.jquery-timepicker-minute-big {
+	background: #4e4e4e;
+	position: absolute;
+	-webkit-transform-origin: 50% 100px;
+	-ms-transform-origin: 50% 100px;
+	transform-origin: -5% 17px;
+}
+
+.jquery-timepicker-minute-small {
+	height: 2px;
+	margin: 0 17px 0;
+	width: 1px;
+	display: none;
+}
+
+.jquery-timepicker-minute-big {
+	height: 4px;
+	margin: 0 17px 11px;
+	width: 1px;
+}
+
+.jquery-timepicker-minutes-hand,
+.jquery-timepicker-hours-hand {
+	background: #4e4e4e;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	cursor: grab;
+	position: absolute;
+	-webkit-transform-origin: 50% bottom;
+	-ms-transform-origin: 50% bottom;
+	transform-origin: 50% bottom;
+}
+
+body.jquery-timepicker-touch .jquery-timepicker-minutes-hand:after,
+body.jquery-timepicker-touch .jquery-timepicker-hours-hand:after {
+	background: black;
+	bottom: 20px;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	content: '';
+	height: 20px;
+	left: -8px;
+	position: absolute;
+	width: 20px;
+	display: none;
+}
+
+body.jquery-timepicker-touch .jquery-timepicker-minutes-hand:after {
+	bottom: 40px;
+}
+
+.jquery-timepicker-grabbing .jquery-timepicker-hand {
+	cursor: -webkit-grabbing;
+	cursor: -moz-grabbing;
+	cursor: grabbing;
+}
+
+.jquery-timepicker-minutes-hand  {
+	height: 11px;
+	margin: 6px 0 0 17px;
+	width: 1px;
+}
+
+.jquery-timepicker-hours-hand  {
+	height: 10px;
+	margin: 7px 0 0 17px;
+	width: 1px;
+}
+
+.jquery-timepicker-middle {
+	background: #4e4e4e;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	height: 4px;
+	margin: 15px;
+	position: absolute;
+	width: 4px;
+	z-index: 99;
+}
+
+.jquery-timepicker-am-button,
+.jquery-timepicker-pm-button {
+	border: 2px solid black;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	left: -10px;
+	padding: 2px 4px;
+	position: absolute;
+	top: -10px;
+	display: none;
+}
+
+.jquery-timepicker-pm-button {
+	left: auto;
+	right: -10px;
+}
+
+.jquery-timepicker-am-button.active,
+.jquery-timepicker-pm-button.active {
+	background: black;
+	color: white;
+	cursor: default;
+	display: none;
+}
+
+body.jquery-timepicker-grabbing {
+	cursor: -webkit-grabbing;
+	cursor: -moz-grabbing;
+	cursor: grabbing;
+}
+span.timezone.activeclock, input.timezone.active{
+	display: none !important;
+}
+.clock-animation {
+    position: fixed;
+    right: 20px;
+    top: 0;
+}
+.jd-clock-dropdown {
+	position: absolute;
+	width: 100px;
+	right: 0px;
+	top: 51px;
+	background: #fff;
+	z-index: 1;
+	-webkit-box-shadow: 0 2px 2px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 2px 2px 1px rgba(0,0,0,0.1);
+	font-family: "Lato-Regular" !important;
+	display: none;
+	z-index: 999999;
+}
+.jd-clock-dropdown span {
+	display:block !important;
+    height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 11px;
+}
+.jd-clock-dropdown span.timezone em {
+    display: inline-block;
+    float: right;
+    font-style: normal;
+}
+.jd-clock-dropdown span.timezone:hover{
+	background: #f7f7f7;
+	cursor: pointer;
+}
+.clockanim{
+	width: 38px;
+    height: 38px;
+    float: right;
+    margin: 0 0 0 20px;
+    position: absolute;
+    right: 0 ;
+    top: 22px;
+    z-index: 99999999 !important;
+    cursor: pointer;
+}

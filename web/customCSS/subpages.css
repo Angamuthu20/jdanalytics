@@ -1,0 +1,147 @@
+
+ul#advTab1{
+	list-style-type: none;
+    color: #4c4c4c;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    width: 209px;
+}
+ul#advTab1 li{
+	display: inline-block;
+    width: auto;
+    margin: 3px 8px 2px 8px;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background-position: 0px 20px;
+    position: relative;
+    text-transform: uppercase;
+    list-style: none;
+    cursor: pointer;
+}
+ul#advTab1 li:hover, ul#advTab1 li.active , ul#advTab1 li:active{
+	color: #85bb40;
+}
+#platformTitle{
+    padding: 10px 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Lato-Bold';
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #676767;
+}
+#platformAdv{
+	text-transform: uppercase;
+}
+.platformWrap{
+	text-transform: uppercase;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    background-color: #f1f1f1 !important;
+    border-bottom-width: 1px;
+}
+table#advTable th {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+table#advTable td:nth-child(2), table#advTable td:nth-child(3), table#advTable td:nth-child(4) {
+    padding-right: 30px;
+}
+table.dataTable thead th.dt-body-right, table.dataTable tbody td.dt-body-right {
+    text-align: right;
+}
+
+div#reportrange, div#adv_report_range {
+    border: none !important;
+    border-bottom: 1px solid #babdba !important;
+    padding: 8px 0;
+    width: 100%;
+    background: none;
+    cursor: pointer;
+}
+div#reportrange b.caret, div#adv_report_range b.caret {
+    float: right;
+    background: url(../img/select_right.png) no-repeat bottom;
+    border: none;
+    width: 14px;
+    height: 8px;
+    margin: 7px 0 0 0;
+}
+#adv_report_range{
+	margin-bottom: 15px;
+}
+.compFilterWrap, #select2-compFilter-results{
+	text-transform: uppercase;
+}
+#compFilter{
+	width: 64% !important; 
+}
+#compFilterType{
+	width: 35% !important; 
+}
+.compFilterItem1Wrap input.select2-search__field, .compFilterItem2Wrap input.select2-search__field{
+    width: 145px !important;
+}
+.compTableWrap{
+    margin-top: 10px;
+}
+.compWrap{
+    margin-top: 10px;
+}
+.select2-container--default .select2-selection--single, .select2-container--default .select2-selection--multiple, .select2-selection__rendered{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered{
+    text-transform: uppercase;
+}
+.versus{
+    margin:10px 0 0;
+    font-size: 11px;
+    text-align: center;
+}
+#advTab1 li:after{
+    content: '';
+    height: 2px;
+    width: 0px;
+    background: #4c4c4c;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+#advTab1 li.active:after, #advTab1 li:hover:after{
+    width: 18px;
+}
+.filterWraper{
+    border: 1px solid #babdba;
+    padding: 7px 0 3px 0;
+    background: #f9f9f9;
+}
+.filterWraperGroup{
+    margin-bottom: 10px;
+}
+.conditionWraperGroup{
+    margin: 7px 0;
+}
+ul[id^=select2-compCondition]{
+    text-transform: uppercase;
+}
+.btn-primary i.fa {
+    margin: 0 0 0 0;
+}
+#addCondition, #addFilter{
+    color:#85bb40 !important;
+    background: #fff !important;
+    letter-spacing: 1px;
+    padding: 8px 0px 8px 15px;
+}

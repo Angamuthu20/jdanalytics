@@ -1,0 +1,187 @@
+@media (min-width: 1200px) {
+  .menu-visible-lg {
+    display: block !important;
+  }
+}
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .menu-visible-md {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .menu-visible-md {
+    display: block !important;
+  }
+  .menu-visible-lg {
+    display: block !important;
+  }
+	.xs-txt-rgt {
+		text-align:right;
+	}
+   .filter-block {
+	padding: 0;		
+	}
+  #content-wrapper {
+    margin: 56px 0 0 0;
+    min-height: 1000px;
+  }
+  .jd-navLinks {
+    float: left;
+    padding: 10px 0 0 0;
+	display:none;
+}
+nav.navbar.navbar-static-top .btn-nav {
+    display: inline-block;
+    z-index: 999999;
+    position: fixed;
+    top: 6px;
+    left: 0;
+	margin: 5px 0 0 15px;
+}
+.navbar-top-links li.dropdown {
+    float: right;
+}
+ul.nav.navbar-top-links.navbar-right {
+    padding: 7px 0 0 0;
+}
+.jquery-timepicker {
+	top:14px;
+	right:24px;
+}
+span.nav-logo {
+    margin: 4px 30px 0 48px;
+}
+.jd-innerWrap {
+    border-bottom: 2px solid #e5e5e4;
+    margin: 0;
+    padding: 0 0 3px;
+}
+  .body-small .navbar-static-side {
+    display: none;
+    z-index: 2001;
+    position: absolute;
+    width: 70px;
+  }
+  .body-small.mini-navbar .navbar-static-side {
+    display: block;
+  }
+  .lock-word {
+    display: none;
+  }
+  .top-navigation .navbar-header {
+    display: block;
+    float: none;
+  }
+  .navbar-form-custom {
+    display: none;
+  }
+  .navbar-header {
+    display: inline;
+    float: left;
+  }
+  .sidebard-panel {
+    z-index: 2;
+    position: relative;
+    width: auto;
+    min-height: 100% !important;
+  }
+  .sidebar-content .wrapper {
+    padding-right: 0;
+    z-index: 1;
+  }
+  .fixed-sidebar.body-small .navbar-static-side {
+    display: none;
+    z-index: 2001;
+    position: fixed;
+    width: 220px;
+  }
+  .fixed-sidebar.body-small.mini-navbar .navbar-static-side {
+    display: block;
+  }
+  .ibox-tools {
+    float: none;
+    text-align: right;
+    display: block;
+  }
+  .tabs-container .nav-tabs > li {
+    float: none !important;
+  }
+  .tabs-container .nav-tabs > li.active > a {
+    border-bottom: 1px solid #e7eaec !important;
+    margin: 0;
+  }
+  .float-e-margins .btn {
+	  margin-top:8px;
+  }
+  .powered-txt {
+	  font-size:10px;
+	  top:0;
+	  right:26px;
+  }
+  nav.navbar.navbar-static-top {
+	  margin-bottom: 5px;
+  }
+}
+@media screen and (min-width:481px) and (max-width:767px) {
+	.col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+		
+	}
+	.col-xl-12{width:100%}.col-xl-11{width:91.66666667%}.col-xl-10{width:83.33333333%}.col-xl-9{width:75%}.col-xl-8{width:66.66666667%}.col-xl-7{width:58.33333333%}.col-xl-6{width:50%}.col-xl-5{width:41.66666667%}.col-xl-4{width:33.33333333%}.col-xl-3{width:25%}.col-xl-2{width:16.66666667%}.col-xl-1{width:8.33333333%}
+	
+}
+
+@media (max-width: 350px) {
+  .timeline-item .date {
+    text-align: left;
+    width: 110px;
+    position: relative;
+    padding-top: 30px;
+  }
+  .timeline-item .date i {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #e7eaec;
+    background: #f8f8f8;
+  }
+  .timeline-item .content {
+    border-left: none;
+    border-top: 1px solid #e7eaec;
+    padding-top: 10px;
+    min-height: 100px;
+  }
+  .nav.navbar-top-links li.dropdown {
+    display: none;
+  }
+  .ibox-tools {
+    float: none;
+    text-align: left;
+    display: inline-block;
+  }
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sideMenu {padding-top: 15px;}
+    .sideMenu a {font-size: 18px;}
+}
+
+@media print {
+  nav.navbar-static-side {
+    display: none;
+  }
+  #content-wrapper {
+    margin: 0;
+  }
+}
